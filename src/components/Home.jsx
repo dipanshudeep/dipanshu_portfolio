@@ -37,7 +37,7 @@ function Home() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
             >
-                <Link href="/projects" className='px-6 py-3 bg-amber-500 text-white rounded-lg shadow-lg hover:bg-amber-600 transition duration-300'>
+                <Link to="/projects" className='px-6 py-3 bg-amber-500 text-white rounded-lg shadow-lg hover:bg-amber-600 transition duration-300'>
                     View Projects
                 </Link>
             </motion.div>
