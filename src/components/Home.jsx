@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion';
-
+import { Link } from 'react-router-dom';
 function Home() {
   return (
  
@@ -37,9 +37,9 @@ function Home() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
             >
-                <a href="/projects" className='px-6 py-3 bg-amber-500 text-white rounded-lg shadow-lg hover:bg-amber-600 transition duration-300'>
+                <Link href="/projects" className='px-6 py-3 bg-amber-500 text-white rounded-lg shadow-lg hover:bg-amber-600 transition duration-300'>
                     View Projects
-                </a>
+                </Link>
             </motion.div>
         </div>
         {/* add image section */}
