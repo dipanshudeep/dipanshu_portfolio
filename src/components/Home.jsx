@@ -49,7 +49,7 @@ function Home() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.6 }}
         >
-            <img src="https://avatars.githubusercontent.com/u/170921134?v=4' />
+            <img src="https://avatars.githubusercontent.com/u/170921134?v=4" />
         </motion.div>
     </div>
   )
