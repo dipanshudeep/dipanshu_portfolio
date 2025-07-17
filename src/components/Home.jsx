@@ -49,7 +49,7 @@ function Home() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.6 }}
         >
-            <img src="https://www.kinosphere.in/images/ahimsa.jpg" alt="Portfolio" className='rounded-full w-40 h-40 sm:w-60 sm:h-60 md:w-72 md:h-72 object-cover shadow-lg' />
+            <img src="https://avatars.githubusercontent.com/u/170921134?v=4' />
         </motion.div>
     </div>
   )
